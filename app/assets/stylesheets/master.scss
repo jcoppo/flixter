@@ -1,7 +1,25 @@
 @import "bootstrap";
 
-#navi {
+.navbar {
   // background-color: #424949;
-  background-color: pink;
+  // height: 100px;
+  padding: 20px;
+  background-color: #FF91A3;
 
+
+}
+
+.navbar-brand {
+  padding-right: 30px;
+  color: white;
+  font-size: 40px;
+}
+
+.navbar-brand:hover {
+  color: DODGERBLUE;
+}
+
+.navbar-collapse {
+  color: #262626;
+  font-size: 23px;
 }
