@@ -1,8 +1,10 @@
 @import "bootstrap";
 
 body {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 250;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-weight: 250;  background: image_url('bg.png');
+  background: image_url('bg.png');
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -16,14 +18,14 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .navbar {
   // background-color: #424949;
   // height: 100px;
-  padding: 20px;
+  // padding: 20px;
   background-color: #FF91A3;
   box-shadow: 0px 1px 3px #2a2a2a;
   background: image_url('beanstalk.png');
 }
 
 .navbar-brand {
-  padding-right: 30px;
+  // padding-right: 30px;
   color: #1D2156;
   font-size: 40px;
   font-weight: 350;
@@ -50,19 +52,25 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0);
 }
 
 .frosty h1 {
-  font-family: "Helvetica Neue", Helvetica;
+  // font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  // text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 
 }
 
 .frosty h2 {
-  font-family: "Helvetica Neue", Helvetica;
+  // font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  // text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
