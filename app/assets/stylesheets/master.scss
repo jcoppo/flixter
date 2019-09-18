@@ -32,14 +32,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-weight: 200;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover, .nav-link:hover {
   color: AQUAMARINE;
 }
 
-.navbar-collapse {
+.nav-link {
   // color: #262626;
   color: white;
-
   font-size: 23px;
 }
 
@@ -101,4 +100,8 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
   margin: 10px;
+}
+
+.clr {
+  clear: both;
 }
